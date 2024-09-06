@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>漢字検定問題</title>
+</head>
+<body>
+<!-- 問題作成と答え表示 -->
+<div style="text-align:center">
+    <h1>問題自動作成</h1>
+    <form id="form1" action="#">
+        <input type="button" onclick="click_button()" value="問題作成・答え表示">
+    </form>
+     <table align="center" border="1" style="border-collapse: collapse">
+      <tbody id="list_test">
+        <tr><td>問題</td><td>答え</td></tr>
+        <tr><td id="q_test"></td><td id="a_test"></td></tr>
+      </tbody>
+    </table>
+    <p id="question"><p>
+</div>
+
+<!-- 問題一覧 -->
+<div style="text-align:center">
+  <h1>問題一覧</h1>
+    <table align="center" border="1" style="border-collapse: collapse">
+      <tbody id="list_QA"></tbody>
+    </table>
+</div>
+
+<script src="kanken.js"></script>
+
+<noscript>
+<p>このサイトではJavaScriptを使用していますので、有効にしてください。</p>
+</noscript>
+
+</body>
+</html>
+
+
+
+  
